@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h1>Teste de nacionálidade braileira</h1>
+    Digite o seu pais de oriem:<input type="text" name="txtpais" id="txtpais">
+    <input type="button" value="Testar" onclick="Verificar()">
+    <div id="res">
+        
+    </div>
+    <script>
+        function Verificar(){
+            var pais = window.document.querySelector('input#txtpais')
+            var res = window.document.getElementById('res')
+            res.innerHTML = `<p>Vivendo em ${txtpais}</p>`
+            if (pais != 'Brasil'){
+                res.innerHTML += `<p>Você é estrangeiro</p>`
+            }else{
+                res.innerHTML += `<p>Você é brasileiro</p>`
+            }
+        }
+    </script>
+</body>
+</html>
