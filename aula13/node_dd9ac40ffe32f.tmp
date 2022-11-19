@@ -1,0 +1,15 @@
+var c = 1
+while (c <= 10000000000000000000) {
+    console.log('Tudo certo?')
+    c++
+}
+
+/*
+console.log('Tudo certo?')
+console.log('Tudo certo?')
+console.log('Tudo certo?')
+console.log('Tudo certo?')
+console.log('Tudo certo?')
+console.log('Tudo certo?')
+*/
+
